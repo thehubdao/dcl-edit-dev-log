@@ -46,7 +46,7 @@ When organizing 3D assets, we usually want to have a thumbnail, so we can see ho
 Automatically.
 
 ## End of the first one
-So, fare well, dear reader. Let your hart be your guide, and it will lead you to great deeds. And remember me who wrote this dev log with bloody and tears to
+So, fare well, dear reader. Let your hart be your guide, and it will lead you to great deeds. And remember me who wrote this dev log with blood and tears to
 enrich you on your journey.
 
 Peace out
