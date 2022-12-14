@@ -16,5 +16,11 @@ After the rework, it will detect what needs to be updatet and what not. And when
 for that. That means, when we "delete" an object, it will only be disabled and stored away. When we "create" an object, it will first look for an object,
 that can be used, instead of actually creating a new one.
 
+### Save panel size
+The dcl-edit beta will feature freely arangeable pannels. This is archived with the Unity Package 
+[Dynamic Panels](https://github.com/yasirkula/UnityDynamicPanels) by yasirkula
+![grafik](https://user-images.githubusercontent.com/11379989/207691957-021c71aa-cfab-4084-a53b-06eb23ac6338.png)
+The arangement of these panels are now saved on a user level. That means, even when you open two different projects, your personal panel arangement will
+be the same in both.
 
-I hope you will enjoy reading it, because I did not enjoy writing it.
+
