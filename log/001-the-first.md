@@ -39,3 +39,14 @@ https://user-images.githubusercontent.com/11379989/207700677-ebd9458c-7710-43e0-
 dcl-edit is build on the game engine Unity. Being a game engine, it always tries to run as fast as possible. This can lead to high energy consumption
 and high usage of processor resources. To prevent that, we've included an option to set a maximum frame rate. That way, the entire editor will update itself less
 often and therefore save resources.
+
+### Thumbnail Generator
+When organizing 3D assets, we usually want to have a thumbnail, so we can see how a model looks like. In the dcl-edit alpha, we needed to manually add a 
+`Thumbnail.png` file. Now that is not needed anymore. When an asset needs to be displayed, but no thumbnail is available, a new one will be generated 
+Automatically.
+
+## End of the first one
+So, fare well, dear reader. Let your hart be your guide, and it will lead you to great deeds. And remember me who wrote this dev log with bloody and tears to
+enrich you on your journey.
+
+Peace out
