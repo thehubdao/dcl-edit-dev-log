@@ -23,4 +23,7 @@ The dcl-edit beta will feature freely arangeable pannels. This is archived with 
 The arangement of these panels are now saved on a user level. That means, even when you open two different projects, your personal panel arangement will
 be the same in both.
 
-
+### Input validation
+There are many places, where a user can type in a number into a textfield. These textfields did not block the user from entering non numbers. That led to 
+errors while executing. Now, when ever the input is invalid, it will turn the textfield red and inform the underlying system about it.
+![grafik](https://user-images.githubusercontent.com/11379989/207696359-c986fc20-76eb-4100-a5f1-9a06ff27e8e7.png)
