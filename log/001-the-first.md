@@ -27,3 +27,11 @@ be the same in both.
 There are many places, where a user can type in a number into a textfield. These textfields did not block the user from entering non numbers. That led to 
 errors while executing. Now, when ever the input is invalid, it will turn the textfield red and inform the underlying system about it.
 ![grafik](https://user-images.githubusercontent.com/11379989/207696359-c986fc20-76eb-4100-a5f1-9a06ff27e8e7.png)
+
+### Loading animation
+When using 3D assets in the scene, we will lazy load those for preview. That means, the assets are only loaded, when they are actually needed, e.g. to be displayed.
+But that means, after opening the scene there will be a short time where the 3D model is not available to be shown. In that time we will show a different object with
+a neat little animation.
+
+https://user-images.githubusercontent.com/11379989/207700677-ebd9458c-7710-43e0-81b1-c5690573944d.mp4
+
