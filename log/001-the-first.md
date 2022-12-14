@@ -35,3 +35,7 @@ a neat little animation.
 
 https://user-images.githubusercontent.com/11379989/207700677-ebd9458c-7710-43e0-81b1-c5690573944d.mp4
 
+### Cap frame rate
+dcl-edit is build on the game engine Unity. Being a game engine, it always tries to run as fast as possible. This can lead to high energy consumption
+and high usage of processor resources. To prevent that, we've included an option to set a maximum frame rate. That way, the entire editor will update itself less
+often and therefore save resources.
