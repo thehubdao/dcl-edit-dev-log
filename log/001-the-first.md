@@ -16,10 +16,10 @@ Now it detects what needs to be updated and what not. And when an UI Element nee
 for that. That means, when we "delete" an object, it will only be disabled and stored away. When we "create" an object, it will first look for an object
 that can be used, instead of actually creating a new one.
 
-### Save panel size
+### Dynamic Panels
 Dcl-Edit now features freely arrangeable panels. This is achieved with the Unity Package [Dynamic Panels](https://github.com/yasirkula/UnityDynamicPanels) by yasirkula
 ![grafik](https://user-images.githubusercontent.com/11379989/207691957-021c71aa-cfab-4084-a53b-06eb23ac6338.png)
-The arrangement of these panels is now saved on a user level. That means even when you open two different projects, your personal panel arrangement will
+The arrangement of these panels is saved on a user level. That means even when you open two different projects, your personal panel arrangement will
 be the same in both.
 
 ### Input validation
