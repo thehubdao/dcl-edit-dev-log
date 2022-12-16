@@ -3,14 +3,14 @@ Hello.
 
 This is the first dev log for dcl-edit.
 In these dev logs, we will show you what we've been working on for the last week.
-Because this is the first one, there is a lot to catch up. 
+Because this is the first one, we'll catch up on all the new features that are now part of the new editor version (Dcl-Edit Beta).
 
 ### Rework UI Builder
 dcl-edit is meant to be a professional tool. To ensure a unique look across the program, we've made the UI Builder. 
 Its main purpose is to act as an abstraction layer between scripts and the actual UI. When I want to display three texts and a button somewhere,
-I don't create that in Unity, but I ask the UI Builder to put tree texts and a button to where ever it's needed.
+I don't create that in Unity, but I ask the UI Builder to put three texts and a button to where ever it's needed.
 
-The UI Builder was not optimized. When ever we asked the Builder to update the content, it deleted the entire UI and recreated it.
+The previous UI Builder was not optimized. Whenever we asked the Builder to update the content, it deleted the entire UI and recreated it.
 
 Now it detects what needs to be updated and what not. And when an UI Element needs to be created or deleted, it will use an object pool
 for that. That means, when we "delete" an object, it will only be disabled and stored away. When we "create" an object, it will first look for an object
