@@ -13,3 +13,6 @@ and prompt the tester with a task or a question. That way, we can quickly see, i
 
 ![grafik](https://user-images.githubusercontent.com/11379989/211175336-199b3b4e-8fed-4dc2-b79f-84f654fc219f.png)
 
+## Gizmo rotation on scaled parents
+
+The gizmos are meant to act as a handle for the user to manipulate entities in the scene, like moving or rotating them. These need to be displayed on the entity, they are meant to modify. This was not the case, because of a bug with how the transform of child entities was calculated. This was fixed, and now the gizmos show exactly, where they're supposed to show.
