@@ -43,3 +43,22 @@ related to opening and saving scenes. A scene can now be opened from everywhere.
 
 ![grafik](https://user-images.githubusercontent.com/11379989/211176793-10eec849-dad4-450e-b299-ba8c8e58a1f5.png)
 
+## Settings
+
+There were three settings added.
+
+### UI scale
+
+The user can now specify a scaling factor, that is applied to the entire UI.
+
+![grafik](https://user-images.githubusercontent.com/11379989/211176907-62a29222-d7a0-41d7-a4b9-c4d8bc01424b.png)
+
+
+### Input sensitivity
+
+The user can now set the sensitivity of the mouse, when navigating the scene view. 
+
+### Gizmo size
+
+The user can now change the size of the gizmo tool. This can be nice, when the tool obscures too much of the scene.
+
