@@ -15,16 +15,31 @@ and prompt the tester with a task or a question. That way, we can quickly see, i
 
 ## Problems with gizmos tools and transforms
 
-The gizmo tools are meant to act as a handle for the user to manipulate entities in the scene, like moving or rotating them. These need to be displayed on the entity, they are meant to modify. This was not the case, because of a bug with how the transform of child entities was calculated. This was fixed, and now the tools show exactly, where they're supposed to show.
+The gizmo tools are meant to act as a handle for the user to manipulate entities in the scene, like moving or rotating
+them. These need to be displayed on the entity, they are meant to modify. This was not the case, because of a bug with
+how the transform of child entities was calculated. This was fixed, and now the tools show exactly, where they're supposed to show.
 
-Also related to the transform, there was a bug, where the scale "flickered" when it was pushed below -1 with the scaling gizmo tool. This was fixed, too.
+Also related to the transform, there was a bug, where the scale "flickered" when it was pushed below -1 with the
+scaling gizmo tool. This was fixed, too.
 
 ## Removing components
 
-When inspecting an entity, we see all the components on that entity. We also want to be able to remove them. This is now possible by clicking the red "X".
+When inspecting an entity, we see all the components on that entity. We also want to be able to remove them. This is
+now possible by clicking the red "X".
 
 ![grafik](https://user-images.githubusercontent.com/11379989/211175843-53c6a7db-17fc-43e6-bf23-bdd1152c25c2.png)
 
 ## Zoom when in context menu
 
-In some cases, like right-clicking some objects, a context menu will pop up. This can technical be so big, that it needs to show a scroll bar and the user needs to scroll in it with the mouse wheel. But when scrolling in the context menu, while the mouse is also over the scene view, the main scene camera will also scroll in or out. This should not happen and is now fixed.
+In some cases, like right-clicking some objects, a context menu will pop up. This can technical be so big, that it
+needs to show a scroll bar and the user needs to scroll in it with the mouse wheel. But when scrolling in the context 
+menu, while the mouse is also over the scene view, the main scene camera will also scroll in or out. This should not
+happen and is now fixed.
+
+## Menu bar
+
+Many applications have a menu bar at the top of the window. Now, dcl-edit has one, too. The first options in there are
+related to opening and saving scenes. A scene can now be opened from everywhere. 
+
+![grafik](https://user-images.githubusercontent.com/11379989/211176793-10eec849-dad4-450e-b299-ba8c8e58a1f5.png)
+
