@@ -18,3 +18,9 @@ and prompt the tester with a task or a question. That way, we can quickly see, i
 The gizmo tools are meant to act as a handle for the user to manipulate entities in the scene, like moving or rotating them. These need to be displayed on the entity, they are meant to modify. This was not the case, because of a bug with how the transform of child entities was calculated. This was fixed, and now the tools show exactly, where they're supposed to show.
 
 Also related to the transform, there was a bug, where the scale "flickered" when it was pushed below -1 with the scaling gizmo tool. This was fixed, too.
+
+## Removing components
+
+When inspecting an entity, we see all the components on that entity. We also want to be able to remove them. This is now possible by clicking the red "X".
+
+![grafik](https://user-images.githubusercontent.com/11379989/211175843-53c6a7db-17fc-43e6-bf23-bdd1152c25c2.png)
