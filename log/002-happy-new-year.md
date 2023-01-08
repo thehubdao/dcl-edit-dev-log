@@ -24,3 +24,7 @@ Also related to the transform, there was a bug, where the scale "flickered" when
 When inspecting an entity, we see all the components on that entity. We also want to be able to remove them. This is now possible by clicking the red "X".
 
 ![grafik](https://user-images.githubusercontent.com/11379989/211175843-53c6a7db-17fc-43e6-bf23-bdd1152c25c2.png)
+
+## Zoom when in context menu
+
+In some cases, like right-clicking some objects, a context menu will pop up. This can technical be so big, that it needs to show a scroll bar and the user needs to scroll in it with the mouse wheel. But when scrolling in the context menu, while the mouse is also over the scene view, the main scene camera will also scroll in or out. This should not happen and is now fixed.
