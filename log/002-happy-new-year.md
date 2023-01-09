@@ -31,7 +31,7 @@ now possible by clicking the red "X".
 
 ## Zoom when in context menu
 
-In some cases, like right-clicking some objects, a context menu will pop up. This can technical be so big, that it
+In some cases, like right-clicking some objects, a context menu will pop up. This can theoretically be so big, that it
 needs to show a scroll bar and the user needs to scroll in it with the mouse wheel. But when scrolling in the context 
 menu while the mouse is also over the scene view, the main scene camera would also scroll in or out. This should not
 happen and is now fixed.
