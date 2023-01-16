@@ -1,6 +1,6 @@
 # 003 Assets
 
-We are thrilled to announce that the asset browser is finally merged! It has taken us multiple months of hard work.
+We are thrilled to announce that the asset browser is finally ready and merged! It has taken us multiple months of hard work.
 Although it has taken a while, we are proud of the results and are excited to see how it will be used.
 
 ## Asset Browser
@@ -33,7 +33,7 @@ legacy builder are now accessible through the asset browser. However, smart item
 
 Besides the asset browser, we have also been working on other updates.
 
-### Make objects duplicate
+### Make object duplicates
 
 The user can now duplicate objects by pressing ctrl+d. This is a huge time saver, when creating scenes. This also works
 with child entities.
@@ -41,16 +41,16 @@ with child entities.
 ### Fix: Wrong input field selected
 
 When clicking on an input field, the wrong input field was sometimes selected. This was due to a bug in the code, where the 
-UI Visuals updated, when there sould not update. This was fixed, and now the correct input field stayes selected.
+UI Visuals updated, when there should not update. This was fixed, and now the correct input field stays selected.
 
 ### Startup sequence rework
 
-The startup sequence was changed, so that it can handle different cases. This includes cases, where dcl-edit needs to open
+The startup sequence was changed, so that it can handle different cases. This includes cases where dcl-edit needs to open
 a new scene or convert a scene from V1 to V2.
 
 ### Show available lands in blue
 
 In the scene.json file, there is a list of parcels, that are available to build on. These are now shown in blue in the 
-scene view, so that the user can quickly see, where to build.
+scene view, so that the user can quickly see where to build.
 
 ![grafik](https://user-images.githubusercontent.com/11379989/212622510-d30bfed9-9597-40b0-82ed-7699560483ef.png)
