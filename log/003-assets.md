@@ -8,6 +8,8 @@ Although it has taken a while, we are proud of the results and are excited to se
 The asset browser is a tool used to manage assets in a project. It allows users to easily access, view, and organize
 assets in a convenient way. With the asset browser, users can quickly find the assets they need.
 
+![grafik](https://user-images.githubusercontent.com/11379989/212622213-fd1be6cc-f42e-459d-b2cf-f4efdac766b9.png)
+
 ### Usage
 
 The asset browser allows users to browse assets and easily add them to their scene. They can either drag and drop the
@@ -24,6 +26,8 @@ projects.
 
 Another asset source supported by the asset browser is assets from the legacy builder. All assets available in the 
 legacy builder are now accessible through the asset browser. However, smart items do not work with dcl-edit.
+
+![grafik](https://user-images.githubusercontent.com/11379989/212622399-10b41d02-9312-4e0e-8f2b-647f7e31bc9e.png)
 
 ## Other updates
 
@@ -48,3 +52,5 @@ a new scene or convert a scene from V1 to V2.
 
 In the scene.json file, there is a list of parcels, that are available to build on. These are now shown in blue in the 
 scene view, so that the user can quickly see, where to build.
+
+![grafik](https://user-images.githubusercontent.com/11379989/212622510-d30bfed9-9597-40b0-82ed-7699560483ef.png)
