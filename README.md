@@ -7,3 +7,5 @@ This repository contains the weekly dev log for dcl-edit. To learn more about it
 
 [002-happy-new-year](log/002-happy-new-year.md)
 
+[003-assets](log/003-assets.md)
+
