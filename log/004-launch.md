@@ -12,7 +12,7 @@ Thanks for your patience and support as we continue to make dcl-edit the best sc
 One of the new features we've been working on is the addition of asset properties to dcl-edit. Previously, a property could only be a simple text or number, but now it can also be an asset such as a 3D model or another scene. With this new feature, changing an asset property is as easy as clicking on the asset button next to it. This will open up the asset browser, where the user can select a new asset to replace the current one. The asset browser is intuitive and easy to use, making it simple to find the perfect asset for your scene. 
 
 ## Right click in hierarchy
-We have recently implemented a new feature that allows users to interact with items in the hierarchy using right-click. Now, by right-clicking on an item in the hierarchy or on the empty space under it, a context menu will appear with several options. These options include adding a new entity, deleting an existing entity, and duplicating an entity. Additionally, users can also change the hierarchy order of an entity like moving it up or down in the list. This feature provides a way to manage items in the hierarchy, without having to use drag and drop.
+We have recently implemented a new feature that allows users to interact with items in the hierarchy using right-click. Now, by right-clicking on an item in the hierarchy or on the empty space under it, a context menu will appear with several options. These options include adding a new entity, deleting an existing entity, and duplicating an entity. Additionally, users can also change the hierarchy order of an entity, like moving it up or down in the list. This feature provides a way to manage items in the hierarchy, without having to use drag and drop.
 
 ## Menu bar
 We've recently added a menu bar to dcl-edit, which is a bar that sits at the top of the window and provides easy access to various functions. When clicking on a point in the menu bar, a sub-menu will appear with additional options. The "File" menu point contains options to create a new scene, open an existing scene, save a scene, save a scene with a new name, and exit the application. The "Edit" menu point provides the ability to undo and redo actions, which can be especially useful during the scene creation process. The menu bar is a great way to quickly access common functions, which can save time and make scene creation more efficient.
@@ -36,3 +36,9 @@ We have made significant improvements to the hierarchy system in dcl-edit. Users
 In response to user feedback, we have added a new feature to dcl-edit that allows users to use commas as a decimal separator in addition to the period. Previously, only the period was accepted as a decimal separator, which could be problematic for users with non-English numpads that have a comma as the default separator.
 
 ## Many bug fixes
+We've fixed many bugs in dcl-edit, most of which were minor issues that affected the user experience. We addressed some problems with the gizmo and with undoing actions. These fixes represent a significant improvement for the editor, and we're continuing to make improvements.
+
+
+##
+
+That's all for now, folks! We've been working hard to improve the dcl-edit experience for our users, and we hope you enjoy these new features and improvements. We'll continue to work on fixing bugs and adding new functionality, so stay tuned for future updates. Thank you for your support!
