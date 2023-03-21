@@ -13,7 +13,7 @@ One of the new features we've been working on is the addition of asset propertie
 
 ![grafik](https://user-images.githubusercontent.com/11379989/226687687-5613acaa-a5e6-4978-a1c0-52b4239d0b06.png)
 
-## Right click in hierarchy
+## Context menu in hierarchy
 We have recently implemented a new feature that allows users to interact with items in the hierarchy using right-click. Now, by right-clicking on an item in the hierarchy or on the empty space under it, a context menu will appear with several options. These options include adding a new entity, deleting an existing entity, and duplicating an entity. Additionally, users can also change the hierarchy order of an entity, like moving it up or down in the list. This feature provides a way to manage items in the hierarchy, without having to use drag and drop.
 
 ![grafik](https://user-images.githubusercontent.com/11379989/226688152-b2185695-034c-43a9-bb1b-8dc7db613b9d.png)
