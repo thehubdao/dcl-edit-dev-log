@@ -17,4 +17,7 @@ We have recently implemented a new feature that allows users to interact with it
 ## Menu bar
 We've recently added a menu bar to dcl-edit, which is a bar that sits at the top of the window and provides easy access to various functions. When clicking on a point in the menu bar, a sub-menu will appear with additional options. The "File" menu point contains options to create a new scene, open an existing scene, save a scene, save a scene with a new name, and exit the application. The "Edit" menu point provides the ability to undo and redo actions, which can be especially useful during the scene creation process. The menu bar is a great way to quickly access common functions, which can save time and make scene creation more efficient.
 
+## Buttons in scene view
+In dcl-edit, the buttons in the top left of the scene view have been added to provide users with more control and functionality. The first three buttons allow users to quickly switch between transform, rotate, and scale tools for editing their scene. The next two buttons enable users to switch between local and global editing modes, providing more precise control over the position, rotation, and scale of objects. Finally, the last button toggles tool snapping, which can be useful for aligning objects and making precise adjustments. 
+
 ## Many bug fixes
