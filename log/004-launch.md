@@ -32,4 +32,7 @@ One of the recent improvements we've made to dcl-edit is the ability to automati
 ## Hierarchy order
 We have made significant improvements to the hierarchy system in dcl-edit. Users can now freely sort the hierarchy list by dragging and dropping the items or by using the right-click options. This makes it easier to organize the scene and manage large amounts of items. In addition, entities can now be parented within the hierarchy, allowing users to group related objects and control their behavior as a unit.
 
+## Comma as decimal separator
+In response to user feedback, we have added a new feature to dcl-edit that allows users to use commas as a decimal separator in addition to the period. Previously, only the period was accepted as a decimal separator, which could be problematic for users with non-English numpads that have a comma as the default separator.
+
 ## Many bug fixes
