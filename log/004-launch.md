@@ -26,4 +26,7 @@ A significant development in dcl-edit is the addition of scene nesting. This mea
 ## Generate with assets
 We've added asset support into the typescript generation process. This means that the typescript that's generated from the scene will now contain references to the assets, allowing the scene to load them properly when it's being rendered in Decentraland. To ensure that only the necessary assets are included in the build files, we have implemented a system that copies the assets as needed, leaving the unnecessary assets out.
 
+## Reopen last opened scene
+One of the recent improvements we've made to dcl-edit is the ability to automatically open the last opened scene on startup. This feature is a time-saver for users who are frequently working on the same scene and don't want to waste time searching for it every time they open the editor. Now, when users launch dcl-edit, the last opened scene will be loaded automatically, making the start-up process more efficient.
+
 ## Many bug fixes
