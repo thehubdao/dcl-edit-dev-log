@@ -11,6 +11,10 @@ Thanks for your patience and support as we continue to make dcl-edit the best sc
 ## Asset property
 One of the new features we've been working on is the addition of asset properties to dcl-edit. Previously, a property could only be a simple text or number, but now it can also be an asset such as a 3D model or another scene. With this new feature, changing an asset property is as easy as clicking on the asset button next to it. This will open up the asset browser, where the user can select a new asset to replace the current one. The asset browser is intuitive and easy to use, making it simple to find the perfect asset for your scene. 
 
-## 
+## Right click in hierarchy
+We have recently implemented a new feature that allows users to interact with items in the hierarchy using right-click. Now, by right-clicking on an item in the hierarchy or on the empty space under it, a context menu will appear with several options. These options include adding a new entity, deleting an existing entity, and duplicating an entity. Additionally, users can also change the hierarchy order of an entity like moving it up or down in the list. This feature provides a way to manage items in the hierarchy, with out having to use drag and drop.
+
+## Menu bar
+We've recently added a menu bar to dcl-edit, which is a bar that sits at the top of the window and provides easy access to various functions. When clicking on a point in the menu bar, a sub-menu will appear with additional options. The "File" menu point contains options to create a new scene, open an existing scene, save a scene, save a scene with a new name, and exit the application. The "Edit" menu point provides the ability to undo and redo actions, which can be especially useful during the scene creation process. The menu bar is a great way to quickly access common functions, which can save time and make scene creation more efficient.
 
 ## Many bug fixes
