@@ -23,6 +23,7 @@ In dcl-edit, the buttons in the top left of the scene view have been added to pr
 ## Scenes in scenes
 A significant development in dcl-edit is the addition of scene nesting. This means that users can now create scenes within scenes, providing a way to create more complex and interactive experiences. The scene nesting feature can be accessed by adding the "Scene" component to an entity in the scene. This component allows users to reference a separate scene file and embed it within the parent scene. It's important to note that circular dependencies are not allowed, so users must be mindful of the hierarchy of their scenes to avoid any issues.
 
-
+## Generate with assets
+We've added asset support into the typescript generation process. This means that the typescript that's generated from the scene will now contain references to the assets, allowing the scene to load them properly when it's being rendered in Decentraland. To ensure that only the necessary assets are included in the build files, we have implemented a system that copies the assets as needed, leaving the unnecessary assets out.
 
 ## Many bug fixes
