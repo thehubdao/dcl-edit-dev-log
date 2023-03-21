@@ -29,4 +29,7 @@ We've added asset support into the typescript generation process. This means tha
 ## Reopen last opened scene
 One of the recent improvements we've made to dcl-edit is the ability to automatically open the last opened scene on startup. This feature is a time-saver for users who are frequently working on the same scene and don't want to waste time searching for it every time they open the editor. Now, when users launch dcl-edit, the last opened scene will be loaded automatically, making the start-up process more efficient.
 
+## Hierarchy order
+We have made significant improvements to the hierarchy system in dcl-edit. Users can now freely sort the hierarchy list by dragging and dropping the items or by using the right-click options. This makes it easier to organize the scene and manage large amounts of items. In addition, entities can now be parented within the hierarchy, allowing users to group related objects and control their behavior as a unit.
+
 ## Many bug fixes
