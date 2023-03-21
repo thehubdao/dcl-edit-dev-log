@@ -9,3 +9,5 @@ This repository contains the weekly dev log for dcl-edit. To learn more about it
 
 [003-assets](log/003-assets.md)
 
+[004-launch](log/003-launch.md)
+
