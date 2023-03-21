@@ -11,14 +11,22 @@ Thanks for your patience and support as we continue to make dcl-edit the best sc
 ## Asset property
 One of the new features we've been working on is the addition of asset properties to dcl-edit. Previously, a property could only be a simple text or number, but now it can also be an asset such as a 3D model or another scene. With this new feature, changing an asset property is as easy as clicking on the asset button next to it. This will open up the asset browser, where the user can select a new asset to replace the current one. The asset browser is intuitive and easy to use, making it simple to find the perfect asset for your scene. 
 
+![grafik](https://user-images.githubusercontent.com/11379989/226687687-5613acaa-a5e6-4978-a1c0-52b4239d0b06.png)
+
 ## Right click in hierarchy
 We have recently implemented a new feature that allows users to interact with items in the hierarchy using right-click. Now, by right-clicking on an item in the hierarchy or on the empty space under it, a context menu will appear with several options. These options include adding a new entity, deleting an existing entity, and duplicating an entity. Additionally, users can also change the hierarchy order of an entity, like moving it up or down in the list. This feature provides a way to manage items in the hierarchy, without having to use drag and drop.
+
+![grafik](https://user-images.githubusercontent.com/11379989/226688152-b2185695-034c-43a9-bb1b-8dc7db613b9d.png)
 
 ## Menu bar
 We've recently added a menu bar to dcl-edit, which is a bar that sits at the top of the window and provides easy access to various functions. When clicking on a point in the menu bar, a sub-menu will appear with additional options. The "File" menu point contains options to create a new scene, open an existing scene, save a scene, save a scene with a new name, and exit the application. The "Edit" menu point provides the ability to undo and redo actions, which can be especially useful during the scene creation process. The menu bar is a great way to quickly access common functions, which can save time and make scene creation more efficient.
 
+![grafik](https://user-images.githubusercontent.com/11379989/226687893-0f1d638b-f677-4926-9a64-e9f7f55edc8d.png)
+
 ## Buttons in scene view
 In dcl-edit, the buttons in the top left of the scene view have been added to provide users with more control and functionality. The first three buttons allow users to quickly switch between transform, rotate, and scale tools for editing their scene. The next two buttons enable users to switch between local and global editing modes, providing more precise control over the position, rotation, and scale of objects. Finally, the last button toggles tool snapping, which can be useful for aligning objects and making precise adjustments. 
+
+![grafik](https://user-images.githubusercontent.com/11379989/226687938-291672a8-6a4b-4624-8ab9-aed04e202f3a.png)
 
 ## Scenes in scenes
 A significant development in dcl-edit is the addition of scene nesting. This means that users can now create scenes within scenes, providing a way to create more complex and interactive experiences. The scene nesting feature can be accessed by adding the "Scene" component to an entity in the scene. This component allows users to reference a separate scene file and embed it within the parent scene. It's important to note that circular dependencies are not allowed, so users must be mindful of the hierarchy of their scenes to avoid any issues.
